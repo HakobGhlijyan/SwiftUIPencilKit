@@ -19,6 +19,7 @@
 		34A251702C75FDA100F6E74F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		34A251722C75FDA200F6E74F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34A251752C75FDA200F6E74F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		34A2517C2C760BF800F6E74F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +52,7 @@
 		34A2516D2C75FDA100F6E74F /* SwiftUIPencilKit */ = {
 			isa = PBXGroup;
 			children = (
+				34A2517C2C760BF800F6E74F /* Info.plist */,
 				34A2516E2C75FDA100F6E74F /* SwiftUIPencilKitApp.swift */,
 				34A251702C75FDA100F6E74F /* ContentView.swift */,
 				34A251722C75FDA200F6E74F /* Assets.xcassets */,
@@ -275,6 +277,8 @@
 				DEVELOPMENT_TEAM = U4A9CNA96C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUIPencilKit/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Allow to save";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +308,8 @@
 				DEVELOPMENT_TEAM = U4A9CNA96C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUIPencilKit/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Allow to save";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
